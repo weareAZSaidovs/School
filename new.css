@@ -1,0 +1,17 @@
+.image {
+ overflow:hidden;
+ width: 902px;
+ height:564px;
+ }
+
+ .image img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.image img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
